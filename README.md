@@ -1,5 +1,15 @@
 # Program Convert File (MP3 & MP4)
 
+## ** Create Environment python**
+ - Run the following command:
+  ```bash
+  python.exe -m venv .venv
+  ```
+ - Activate Environment:
+  ```bash
+  ./.venv/Scripts/activate
+  ```
+
 ## ** Install pyside6**
  - Run the following command:
   ```bash
