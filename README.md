@@ -42,4 +42,5 @@ If it’s already installed but not working, run this command to upgrade:
     ```
 
 If the version of FFmpeg appears, the installation was successful.
+
 If you see "command not found," please check your PATH settings again.
