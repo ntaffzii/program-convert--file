@@ -1,5 +1,11 @@
 # Program Convert File (MP3 & MP4)
 
+## ** Install pyside6**
+ - Run the following command:
+  ```bash
+  pip install pyside6
+  ```
+
 ## **Installing yt-dlp and FFmpeg**
 
 To use this program, you need to install **yt-dlp** and **FFmpeg** first. Follow these steps:
