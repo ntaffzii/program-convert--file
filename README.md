@@ -4,7 +4,7 @@
 
 To use this program, you need to install **yt-dlp** and **FFmpeg** first. Follow these steps:
 
-### **Install yt-dlp**
+### 1. **Install yt-dlp**
 - Open your working environment.
 - Run the following command:
   ```bash
@@ -14,7 +14,7 @@ If it’s already installed but not working, run this command to upgrade:
   ```bash
   pip install --upgrade yt-dlp
   ```
-### **Install FFmpeg:**
+### 2. **Install FFmpeg:**
 
  - FFmpeg is a program used for converting video and audio files.
  - Go to the FFmpeg Download website and select your operating system.
@@ -23,7 +23,7 @@ If it’s already installed but not working, run this command to upgrade:
     - Download the .zip file and extract it.
     - You will get a bin/ folder that contains the ffmpeg.exe file.
 
-### **Set up PATH for FFmpeg:**
+### 3. **Set up PATH for FFmpeg:**
 
  - Copy the path of the bin/ folder (e.g., C:\ffmpeg\bin).
  - Press Win + R, type sysdm.cpl, and press Enter.
@@ -32,7 +32,7 @@ If it’s already installed but not working, run this command to upgrade:
  - Click New and paste the copied path (e.g., C:\ffmpeg\bin).
  - Click OK and restart your computer once.
 
-### **Test the FFmpeg installation:**
+### 4. **Test the FFmpeg installation:**
 
  - Open cmd or PowerShell and type:
    ```bash
