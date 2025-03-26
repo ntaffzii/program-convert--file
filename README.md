@@ -10,7 +10,9 @@ To use this program, you need to install **yt-dlp** and **FFmpeg** first. Follow
   ```bash
   pip install yt-dlp
   ```
+
 If it’s already installed but not working, run this command to upgrade:
+
   ```bash
   pip install --upgrade yt-dlp
   ```
