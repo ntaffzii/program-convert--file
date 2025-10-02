@@ -181,17 +181,6 @@ class YouTubeDownloader(QWidget):
         """Stop downloading and converting files"""
         if self.thread and self.thread.isRunning():
             self.thread._is_running = False  # Set to stop the thread
-
-            # Stop yt_dlp process
-            if self.thread.yt_dlp_process and self.thread.yt_dlp_process.poll() is None:
-                self.thread.yt_dlp_process.terminate()
-                print("⛔ Stopped yt-dlp download...")
-
-            # Stop ffmpeg process (if any)
-            if self.thread.process and self.thread.process.poll() is None:
-                self.thread.process.terminate()
-                print("⛔ Stopped FFmpeg conversion...")
-
             self.thread.wait()  # Wait for the thread to stop
 
         if self.progress_dialog:
