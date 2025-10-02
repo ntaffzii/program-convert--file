@@ -1,6 +1,17 @@
-# Program Convert File (MP3 & MP4)
+# Program Convert File (MP3 & MP4) 
+"Available only on YouTube."
 
-## ** Install pyside6**
+## **Create Environment python**
+ - Run the following command:
+  ```bash
+  python.exe -m venv .venv
+  ```
+ - Activate Environment:
+  ```bash
+  ./.venv/Scripts/activate
+  ```
+
+## **Install pyside6**
  - Run the following command:
   ```bash
   pip install pyside6
@@ -50,3 +61,9 @@ If it’s already installed but not working, run this command to upgrade:
 If the version of FFmpeg appears, the installation was successful.
 
 If you see "command not found," please check your PATH settings again.
+
+### **Exam Program**
+![image](https://github.com/user-attachments/assets/7fa66fcd-7723-4d7b-ad52-d7c7034cc3cb)
+![image](https://github.com/user-attachments/assets/8953e9a2-68dd-4441-91cd-63d69fb6108a)
+
+
